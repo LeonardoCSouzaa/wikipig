@@ -1,0 +1,893 @@
+{
+  "slug": "diferencial-respiratorio-suino",
+  "topic": "respiratorio",
+  "type": "matrix",
+  "title": "Diferencial Respiratório Suíno",
+  "eyebrow": "Fase de terminação · 65 a 175 dias de idade",
+  "standfirst": "Oito agentes do complexo de doenças respiratórias dos suínos comparados pelo que se vê em campo, na necropsia e no laboratório. <strong>Quatro dos oito agentes têm o pico descrito antes da fase de terminação</strong> e estão marcados como tal.",
+  "agents": [
+    {
+      "id": "mhyo",
+      "sci": "Mycoplasma hyopneumoniae",
+      "common": "Pneumonia enzoótica",
+      "color": 1
+    },
+    {
+      "id": "iav",
+      "sci": "Vírus influenza A",
+      "common": "Influenza suína",
+      "color": 2
+    },
+    {
+      "id": "pcv2",
+      "sci": "Circovírus suíno 2",
+      "common": "Circovirose · PCV2",
+      "color": 4
+    },
+    {
+      "id": "pmul",
+      "sci": "Pasteurella multocida",
+      "common": "Broncopneumonia supurativa",
+      "color": 5
+    },
+    {
+      "id": "app",
+      "sci": "Actinobacillus pleuropneumoniae",
+      "common": "Pleuropneumonia suína",
+      "color": 3
+    },
+    {
+      "id": "glas",
+      "sci": "Glaesserella parasuis",
+      "common": "Doença de Glässer",
+      "color": 8
+    },
+    {
+      "id": "bord",
+      "sci": "Bordetella bronchiseptica",
+      "common": "Rinite não progressiva",
+      "color": 7
+    },
+    {
+      "id": "hyor",
+      "sci": "Mycoplasma hyorhinis",
+      "common": "Polisserosite e artrite",
+      "color": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "clin",
+      "name": "Clínico"
+    },
+    {
+      "id": "nec",
+      "name": "Necropsia"
+    },
+    {
+      "id": "lab",
+      "name": "Laboratório"
+    }
+  ],
+  "rows": [
+    {
+      "label": "Papel no complexo",
+      "cells": {
+        "mhyo": {
+          "html": "<span class=\"tag prim\">primário</span><br><b>Principal agente do complexo.</b> Abre caminho para a bactéria secundária e sustenta a tosse crônica do lote.",
+          "key": true
+        },
+        "iav": {
+          "html": "<span class=\"tag prim\">primário</span><br>Vírus de surto <b>agudo e explosivo</b>. Predispõe a pneumonia bacteriana."
+        },
+        "pcv2": {
+          "html": "<span class=\"tag prim\">primário</span><span class=\"tag fora\">pico fora da fase</span><br>Primário e <b>imunossupressor</b>. Na terminação age sobretudo potencializando os outros agentes."
+        },
+        "pmul": {
+          "html": "<span class=\"tag sec\">secundário</span><br><b>Invasor secundário mais comum</b> da pneumonia suína. Costuma ser quem mata no quadro misto."
+        },
+        "app": {
+          "html": "<span class=\"tag prim\">primário</span><br>Causa doença grave <b>sozinho</b>. Responde pela pleuropneumonia fibrinonecrótica e pela morte súbita."
+        },
+        "glas": {
+          "html": "<span class=\"tag prim\">primário</span><span class=\"tag fora\">pico fora da fase</span><br>Agente da <b>doença de Glässer</b>: polisserosite, poliartrite e meningite. Primário <b>sistêmico</b>, não pneumônico."
+        },
+        "bord": {
+          "html": "<span class=\"tag sec\">secundário</span><span class=\"tag fora\">pico fora da fase</span><br>Responde pela rinite atrófica <b>não progressiva</b> e prepara a mucosa para a <em>P. multocida</em> toxigênica. <b>Também causa broncopneumonia por si.</b>"
+        },
+        "hyor": {
+          "html": "<span class=\"tag sec\">secundário</span><span class=\"tag fora\">pico fora da fase</span><br>Habitante normal da via aérea superior — <b>a maioria dos colonizados não adoece</b>. Quando invade, dá polisserosite e artrite; o papel pneumônico ainda é discutido."
+        }
+      }
+    },
+    {
+      "label": "Janela na terminação",
+      "block": "clin",
+      "cells": {
+        "mhyo": {
+          "html": "Coloniza na creche, mas a doença <b>só aparece semanas depois</b>. Tosse máxima <b>4 a 5 semanas</b> após a infecção; em crescimento e terminação o quadro dura cerca de <b>2 meses</b>.",
+          "key": true
+        },
+        "iav": {
+          "html": "Qualquer ponto da fase. O surto exige <b>lote soronegativo</b> — após mistura, transporte ou entrada de animais."
+        },
+        "pcv2": {
+          "html": "<b>Pico antes da terminação:</b> infecção entre 4 e 11 semanas (28 a 77 dias). Dentro da fase é <b>predominantemente subclínica</b>.",
+          "key": true
+        },
+        "pmul": {
+          "html": "Acompanha o agente primário — concentra-se no <b>meio e no fim da fase</b>."
+        },
+        "app": {
+          "html": "<b>Maior incidência de surtos justamente em crescimento e terminação</b>, sobretudo com clima adverso e mistura de origens."
+        },
+        "glas": {
+          "html": "<b>Pico antes da terminação:</b> sinais principalmente entre <b>4 e 8 semanas</b> (28 a 56 dias), com casos em crescimento e, esporádicos, em adultos.",
+          "key": true
+        },
+        "bord": {
+          "html": "<b>Pico antes da terminação:</b> doença em lactente e creche. Os sinais cedem em poucas semanas, mas a via aérea <b>segue colonizada por meses</b>.",
+          "key": true
+        },
+        "hyor": {
+          "html": "<b>Pico antes da terminação:</b> polisserosite entre <b>3 e 10 semanas</b> (21 a 70 dias), ocasionalmente mais velhos. Surge 3 a 10 dias após estresse ou após pneumonia enzoótica.",
+          "key": true
+        }
+      }
+    },
+    {
+      "label": "Morbidade",
+      "block": "clin",
+      "cells": {
+        "mhyo": {
+          "html": "<b>Alta, pode chegar a 100%.</b> Instalado, o rebanho fica endêmico."
+        },
+        "iav": {
+          "html": "<b>Até 100%</b> em lote sem imunidade prévia."
+        },
+        "pcv2": {
+          "html": "<b>4 a 30%</b>, ocasionalmente 50 a 60%."
+        },
+        "pmul": {
+          "html": "Variável, acompanha o agente primário."
+        },
+        "app": {
+          "html": "Pode passar de <b>50%</b> em surto por cepa virulenta."
+        },
+        "glas": {
+          "html": "<b>5 a 10%</b> em granja convencional."
+        },
+        "bord": {
+          "html": "<b>Alta</b> como colonização, baixa como doença."
+        },
+        "hyor": {
+          "html": "Baixa a moderada, esporádica."
+        }
+      }
+    },
+    {
+      "label": "Mortalidade",
+      "block": "clin",
+      "cells": {
+        "mhyo": {
+          "html": "<b>Abaixo de 2%</b> sem complicação. A morte depende da bactéria secundária."
+        },
+        "iav": {
+          "html": "<b>Abaixo de 1%</b> sem complicação bacteriana."
+        },
+        "pcv2": {
+          "html": "<b>4 a 20%.</b> Na dermatite e nefropatia chega perto de <b>100% acima de 3 meses de idade</b>."
+        },
+        "pmul": {
+          "html": "<b>É frequentemente a causa da morte</b> nos quadros mistos.",
+          "key": true
+        },
+        "app": {
+          "html": "<b>Alta sem tratamento.</b> Morte súbita sem sinal prévio é comum.",
+          "key": true
+        },
+        "glas": {
+          "html": "<b>5 a 10%.</b> Sobe com estresse e mistura de origens."
+        },
+        "bord": {
+          "html": "Baixa."
+        },
+        "hyor": {
+          "html": "Baixa, mas alguns não melhoram e morrem subitamente."
+        }
+      }
+    },
+    {
+      "label": "Febre",
+      "block": "clin",
+      "cells": {
+        "mhyo": {
+          "html": "<b>Ausente ou discreta.</b> Febre no lote aponta outro agente.",
+          "key": true
+        },
+        "iav": {
+          "html": "<b>40,5 a 41,5 °C</b>, de início súbito.",
+          "key": true
+        },
+        "pcv2": {
+          "html": "Variável; não é o sinal dominante."
+        },
+        "pmul": {
+          "html": "Presente, mas sem valor discriminatório isolada."
+        },
+        "app": {
+          "html": "<b>Até 41,5 °C</b>, com relutância acentuada em se mover.",
+          "key": true
+        },
+        "glas": {
+          "html": "<b>Febre alta, 41,5 °C.</b>",
+          "key": true
+        },
+        "bord": {
+          "html": "Ausente ou discreta."
+        },
+        "hyor": {
+          "html": "<b>Até 40,5 °C</b> — moderada, não alta.",
+          "key": true
+        }
+      }
+    },
+    {
+      "label": "Tosse e respiração",
+      "block": "clin",
+      "cells": {
+        "mhyo": {
+          "html": "<b>Tosse seca e não produtiva</b>, que piora ao movimentar, acordar ou levantar o lote. É o sinal mais indicativo.",
+          "key": true
+        },
+        "iav": {
+          "html": "Taquipneia e <b>respiração abdominal forçada</b> primeiro; a <b>tosse só aparece depois de alguns dias</b>.",
+          "key": true
+        },
+        "pcv2": {
+          "html": "Dispneia e tosse, mas o quadro respiratório não domina."
+        },
+        "pmul": {
+          "html": "Tosse produtiva e respiração laboriosa, com <b>piora abrupta de um lote que já tossia seco</b>. Cianose de ponta de orelha nos casos graves.",
+          "key": true
+        },
+        "app": {
+          "html": "<b>Dispneia grave</b> com boca aberta e <b>espuma sanguinolenta pelo nariz e pela boca</b>.",
+          "key": true
+        },
+        "glas": {
+          "html": "Tosse e respiração abdominal no quadro agudo."
+        },
+        "bord": {
+          "html": "Espirro e tosse na fase inicial; na terminação, pouco expressivos."
+        },
+        "hyor": {
+          "html": "Pouco característica. Havendo pneumonia, é indistinguível da do <em>M. hyopneumoniae</em> sem laboratório."
+        }
+      }
+    },
+    {
+      "label": "Estado geral",
+      "block": "clin",
+      "cells": {
+        "mhyo": {
+          "html": "Animal come e fica em pé. <b>Lote desuniforme</b>, com queda de consumo e de ganho."
+        },
+        "iav": {
+          "html": "Anorexia, prostração, animais amontoados e relutantes a levantar. <b>Recuperação começa em 5 a 7 dias.</b>"
+        },
+        "pcv2": {
+          "html": "<b>Perda de peso progressiva com linfonodos inguinais aumentados</b>, palidez e às vezes icterícia.",
+          "key": true
+        },
+        "pmul": {
+          "html": "Depressão e anorexia sobre um lote que já estava doente."
+        },
+        "app": {
+          "html": "Prostração e perda de condição em cerca de 24 h, com cianose. Alguns são achados mortos."
+        },
+        "glas": {
+          "html": "<b>Articulação inchada com claudicação e sinais nervosos</b> — decúbito lateral, pedalagem e tremor, juntos ou isolados.",
+          "key": true
+        },
+        "bord": {
+          "html": "Pouco afetado quando age sozinha. Lacrimejamento com mancha sob o olho."
+        },
+        "hyor": {
+          "html": "<b>Apatia, pelo arrepiado e claudicação discreta.</b> Os sinais cedem em ~2 semanas, mas a <b>artrite persiste de 2 a 3 meses</b>."
+        }
+      }
+    },
+    {
+      "label": "Curso",
+      "block": "clin",
+      "cells": {
+        "mhyo": {
+          "html": "Crônico, de semanas a meses. A lesão cicatriza em 4 a 5 semanas se não houver reinfecção."
+        },
+        "iav": {
+          "html": "<b>Agudo e autolimitante.</b> Incubação de 1 a 3 dias.",
+          "key": true
+        },
+        "pcv2": {
+          "html": "Subagudo a crônico, com refugagem."
+        },
+        "pmul": {
+          "html": "Agudo sobre base crônica. Deixa abscesso e pleurite nos sobreviventes."
+        },
+        "app": {
+          "html": "<b>Superagudo a crônico.</b> Em infecção experimental os sinais surgem em 4 a 12 h."
+        },
+        "glas": {
+          "html": "Incubação de menos de 24 h a 5 dias. <b>A forma superaguda mata em menos de 48 h, sem lesão característica.</b>",
+          "key": true
+        },
+        "bord": {
+          "html": "Sinais cedem em poucas semanas; a lesão de concha pode persistir."
+        },
+        "hyor": {
+          "html": "Agudo que cronifica. A lesão de serosa já fibrosada é irreversível."
+        }
+      }
+    },
+    {
+      "label": "Perda de desempenho",
+      "block": "clin",
+      "cells": {
+        "mhyo": {
+          "html": "<b>Muito importante</b> — pior conversão, menor ganho e mais dias até o abate.",
+          "key": true
+        },
+        "iav": {
+          "html": "Importante no lote afetado: mais dias de terminação e mais ração por animal."
+        },
+        "pcv2": {
+          "html": "Importante pela via subclínica — piora a conversão sem sinal clínico evidente."
+        },
+        "pmul": {
+          "html": "Importante, somada à condenação por abscesso e aderência."
+        },
+        "app": {
+          "html": "Importante nos sobreviventes; a pleurite condena carcaça."
+        },
+        "glas": {
+          "html": "Queda de ganho e claudicação nos cronificados, com refugagem."
+        },
+        "bord": {
+          "html": "Baixo isolada. Relevante só associada à <em>P. multocida</em> toxigênica."
+        },
+        "hyor": {
+          "html": "Perda por refugagem, claudicação e condenação por aderência."
+        }
+      }
+    },
+    {
+      "label": "Distribuição no pulmão",
+      "block": "nec",
+      "cells": {
+        "mhyo": {
+          "html": "<b>Cranioventral e bilateral</b> — apical, intermediário, acessório e porção cranial do diafragmático. Mais frequente no <b>apical direito</b>.",
+          "key": true
+        },
+        "iav": {
+          "html": "Multifocal e lobular, <b>bem demarcada do tecido normal</b>; pode passar de metade do pulmão. <b>Também produz consolidação cranioventral sozinha</b>, indistinguível da do <em>M. hyopneumoniae</em> a olho nu.",
+          "key": true
+        },
+        "pcv2": {
+          "html": "Difusa, com pulmão <b>não colapsado e borrachudo</b>, de aspecto mosqueado."
+        },
+        "pmul": {
+          "html": "<b>Cranioventral que avança para os lobos caudais</b> — o avanço além do território do <em>M. hyopneumoniae</em> é a pista.",
+          "key": true
+        },
+        "app": {
+          "html": "Lobar, uni ou bilateral. <b>Na fase aguda é de hilo ou cranioventral</b> — não é o oposto do <em>M. hyopneumoniae</em>. <b>O dorsocaudal é da pleurite crônica no abate.</b>",
+          "key": true
+        },
+        "glas": {
+          "html": "<b>Sem padrão pulmonar próprio.</b> A pleurite ocorre com ou sem broncopneumonia junto.",
+          "key": true
+        },
+        "bord": {
+          "html": "Conchas nasais <b>e pulmão</b>. No pulmão, <b>grupos de lóbulos cranioventrais</b> vermelhos e firmes."
+        },
+        "hyor": {
+          "html": "<b>Sem padrão pulmonar próprio.</b> O alvo é a serosa, não o parênquima.",
+          "key": true
+        }
+      }
+    },
+    {
+      "label": "Aspecto macroscópico",
+      "block": "nec",
+      "cells": {
+        "mhyo": {
+          "html": "Consolidação <b>vermelho-arroxeada, firme e bem demarcada</b>, que afunda na água. No crônico fica roxo-acinzentada, com cicatriz e retração.",
+          "key": true
+        },
+        "iav": {
+          "html": "Áreas roxas e firmes com <b>limite nítido</b>; edema interlobular, exsudato fibrinoso tingido de sangue nas vias aéreas e <b>linfonodos brônquicos e mediastínicos aumentados</b>."
+        },
+        "pcv2": {
+          "html": "Pulmão firme e elástico com <b>edema de septos interlobulares</b>. Linfonodos aumentados, timo atrofiado, pontos brancos no rim."
+        },
+        "pmul": {
+          "html": "Consolidação <b>vermelha no agudo, rosa-opaca a acinzentada no crônico</b>, firme, com <b>pus saindo ao corte do brônquio</b>.",
+          "key": true
+        },
+        "app": {
+          "html": "<b>Pneumonia fibrinonecrótica e hemorrágica</b>: pulmão escuro, tumefeito, exsudando sangue ao corte. No crônico, nódulos encapsulados e aderidos.",
+          "key": true
+        },
+        "glas": {
+          "html": "<b>Fibrina sobre pleura, pericárdio, peritônio, sinóvia e meninges</b>, com aumento de líquido. No superagudo, só líquido serossanguinolento e petéquias."
+        },
+        "bord": {
+          "html": "No focinho, atrofia de conchas e desvio de septo. No pulmão, lesão <b>necro-hemorrágica no agudo</b>, amarelada no subagudo, fibrótica no crônico."
+        },
+        "hyor": {
+          "html": "<b>Pericardite, pleurite e às vezes peritonite fibrinopurulentas.</b> Sinóvia espessada e articulação aumentada."
+        }
+      }
+    },
+    {
+      "label": "Pleura e pericárdio",
+      "block": "nec",
+      "cells": {
+        "mhyo": {
+          "html": "<b>Limpos.</b> Pleurite indica agente associado.",
+          "key": true
+        },
+        "iav": {
+          "html": "Limpos, salvo complicação bacteriana."
+        },
+        "pcv2": {
+          "html": "Pouco acometidos; hidropericárdio possível."
+        },
+        "pmul": {
+          "html": "Pleurite comum; pericardite possível."
+        },
+        "app": {
+          "html": "<b>Pleurite fibrinosa grave com aderência</b>; pericardite fibrinosa possível.",
+          "key": true
+        },
+        "glas": {
+          "html": "<b>Alvo principal</b>, junto do peritônio.",
+          "key": true
+        },
+        "bord": {
+          "html": "Pleurite fibrinosa discreta, <b>só sobre a área acometida</b>."
+        },
+        "hyor": {
+          "html": "<b>Alvo principal.</b>",
+          "key": true
+        }
+      }
+    },
+    {
+      "label": "Lesões extrapulmonares",
+      "block": "nec",
+      "cells": {
+        "mhyo": {
+          "html": "<b>Ausentes.</b> A lesão fica restrita ao trato respiratório.",
+          "key": true
+        },
+        "iav": {
+          "html": "Ausentes na terminação."
+        },
+        "pcv2": {
+          "html": "<b>Presentes e decisivas</b> — linfonodo, baço, fígado, rim e pele.",
+          "key": true
+        },
+        "pmul": {
+          "html": "Poliartrite como sequela; septicemia é rara."
+        },
+        "app": {
+          "html": "Incomuns."
+        },
+        "glas": {
+          "html": "<b>Presentes e definidoras</b> — articulação, meninge e peritônio.",
+          "key": true
+        },
+        "bord": {
+          "html": "Nenhuma."
+        },
+        "hyor": {
+          "html": "<b>Presentes</b> — articulação, pericárdio e peritônio. Também otite com cabeça torta, conjuntivite e aborto.",
+          "key": true
+        }
+      }
+    },
+    {
+      "label": "Diagnóstico de escolha",
+      "block": "lab",
+      "cells": {
+        "mhyo": {
+          "html": "<b>PCR</b> em swab traqueobrônquico ou pulmão. A cultura é padrão-ouro mas difícil e lenta — <b>negativo não exclui</b>. ELISA só tem leitura de rebanho."
+        },
+        "iav": {
+          "html": "<b>RT-PCR</b> em pulmão, swab nasal ou fluido oral. A sorologia não separa vacina de infecção."
+        },
+        "pcv2": {
+          "html": "<b>Tríade obrigatória:</b> perda de peso com linfonodo aumentado + lesão histológica característica + vírus <b>dentro da lesão</b>. PCR isolada não fecha, porque o vírus é endêmico.",
+          "key": true
+        },
+        "pmul": {
+          "html": "<b>Isolamento</b> de pulmão e pleura com histopatologia. <b>Antibiograma obrigatório.</b>"
+        },
+        "app": {
+          "html": "<b>Cultura</b> de lesão aguda de animal recém-morto. <b>Em lesão crônica a cultura é quase sempre negativa</b> — aí use sorologia de rebanho.",
+          "key": true
+        },
+        "glas": {
+          "html": "<b>Isolamento ou PCR do exsudato fibrinoso</b> e de órgão interno. <b>Achado em nariz ou traqueia não significa doença</b> — coloniza o suíno sadio.",
+          "key": true
+        },
+        "bord": {
+          "html": "Cultura de swab nasal e escore de atrofia de conchas. <b>A <em>P. multocida</em> toxigênica precisa ser pesquisada à parte</b> — é ela que define a forma grave."
+        },
+        "hyor": {
+          "html": "<b>PCR de serosa ou articulação</b> — <b>não aparece no PCR de <em>M. hyopneumoniae</em></b>, precisa ser pedido à parte. Cultura é difícil.",
+          "key": true
+        }
+      }
+    },
+    {
+      "label": "Amostra ideal",
+      "block": "lab",
+      "cells": {
+        "mhyo": {
+          "html": "<b>Swab traqueobrônquico</b> no animal vivo; no morto, pulmão da <b>borda entre área sadia e lesada</b>.",
+          "key": true
+        },
+        "iav": {
+          "html": "<b>Swab nasal de animal febril</b> na fase aguda, ou pulmão fresco."
+        },
+        "pcv2": {
+          "html": "Linfonodo, pulmão, baço, fígado, rim e pele em formol."
+        },
+        "pmul": {
+          "html": "Pulmão na borda da lesão e swab de pleura."
+        },
+        "app": {
+          "html": "Borda da lesão aguda e swab de pleura, antes de qualquer antimicrobiano."
+        },
+        "glas": {
+          "html": "Exsudato e serosa, em swab com meio de Amies refrigerado. Colher de vários animais."
+        },
+        "bord": {
+          "html": "Swab nasal profundo; focinho seccionado na altura do primeiro ou segundo pré-molar para escore."
+        },
+        "hyor": {
+          "html": "<b>Sinóvia e swab de pericárdio, pleura e peritônio.</b> Tonsila rende mais que swab nasal."
+        }
+      }
+    },
+    {
+      "label": "Janela de coleta",
+      "block": "lab",
+      "cells": {
+        "mhyo": {
+          "html": "Fase aguda, com tosse ativa. Em lesão crônica a carga bacteriana é baixa."
+        },
+        "iav": {
+          "html": "<b>Primeiros dias de febre.</b> Após cerca de uma semana o vírus já não é detectado.",
+          "key": true
+        },
+        "pcv2": {
+          "html": "Animal em perda de peso ativa, não refugo terminal."
+        },
+        "pmul": {
+          "html": "Fase aguda do agravamento, antes do antimicrobiano."
+        },
+        "app": {
+          "html": "Fase aguda, animal não tratado."
+        },
+        "glas": {
+          "html": "Fase aguda, antes do antimicrobiano. No superagudo pode não haver lesão."
+        },
+        "bord": {
+          "html": "Fase ativa, em lactente e creche — não em terminação."
+        },
+        "hyor": {
+          "html": "Animal <b>com menos de 10 semanas</b>, agudo ou subagudo, sem antibiótico prévio. Evite o cronificado.",
+          "key": true
+        }
+      }
+    },
+    {
+      "label": "Pista forte no campo",
+      "cells": {
+        "mhyo": {
+          "html": "<b>Tosse seca crescendo por semanas, sem febre</b>, lote desuniforme e consolidação cranioventral no abate.",
+          "key": true
+        },
+        "iav": {
+          "html": "<b>O lote inteiro adoece de um dia para o outro</b>, com febre alta, e melhora em poucos dias.",
+          "key": true
+        },
+        "pcv2": {
+          "html": "<b>Refugagem com linfonodo inguinal aumentado</b>, em lote com falha de vacinação.",
+          "key": true
+        },
+        "pmul": {
+          "html": "<b>Lote com tosse crônica que piora de repente</b>, com mortalidade e pus no pulmão.",
+          "key": true
+        },
+        "app": {
+          "html": "<b>Morte súbita com espuma sanguinolenta no focinho</b> e pulmão escuro com pleurite aderida.",
+          "key": true
+        },
+        "glas": {
+          "html": "<b>Febre alta com articulação inchada e sinal nervoso</b>, e fibrina sobre coração e pleura à necropsia.",
+          "key": true
+        },
+        "bord": {
+          "html": "Espirro com mancha de lágrima em animais jovens; na terminação, <b>desvio de focinho como sequela</b>.",
+          "key": true
+        },
+        "hyor": {
+          "html": "<b>Polisserosite e artrite sem meningite</b> — é o principal diferencial da doença de Glässer, onde a meningite é muito mais comum.",
+          "key": true
+        }
+      }
+    }
+  ],
+  "sections": [
+    {
+      "type": "keygrid",
+      "title": "Chave rápida de decisão",
+      "sub": "Três perguntas que estreitam o diferencial antes de o laudo chegar, na ordem em que o campo entrega a informação.",
+      "cards": [
+        {
+          "agent": 1,
+          "title": "1 · Onde está a lesão?",
+          "items": [
+            "<b>Cranioventral, bilateral, firme</b> → <em>M. hyopneumoniae</em> — <b>mas influenza A dá o mesmo padrão</b>.",
+            "<b>Cranioventral com pus ao corte do brônquio</b> → <em>P. multocida</em> secundária.",
+            "<b>Escura, exsudando sangue, com pleurite aderida</b> → <em>A. pleuropneumoniae</em>.",
+            "<b>Não colapsado, borrachudo, mosqueado</b> → PCV2.",
+            "<b>Parênquima limpo, fibrina nas serosas</b> → <em>G. parasuis</em> ou <em>M. hyorhinis</em>."
+          ]
+        },
+        {
+          "agent": 2,
+          "title": "2 · Como começou?",
+          "items": [
+            "<b>Lote inteiro em 24 a 48 h</b> → influenza A.",
+            "<b>Morte súbita com espuma sanguinolenta</b> → <em>A. pleuropneumoniae</em>.",
+            "<b>Tosse seca crescendo por semanas</b> → <em>M. hyopneumoniae</em>.",
+            "<b>Piora abrupta de um lote que já tossia</b> → <em>P. multocida</em>.",
+            "<b>Refugagem lenta, sem surto</b> → PCV2."
+          ]
+        },
+        {
+          "agent": 3,
+          "title": "3 · Tem febre?",
+          "items": [
+            "<b>40,5 a 41,5 °C no lote todo</b> → influenza A.",
+            "<b>41,5 °C com dispneia grave e morte</b> → <em>A. pleuropneumoniae</em>.",
+            "<b>41,5 °C com articulação inchada e sinal nervoso</b> → <em>G. parasuis</em>.",
+            "<b>Até 40,5 °C com claudicação, sem meningite</b> → <em>M. hyorhinis</em>.",
+            "<b>Sem febre, animal comendo</b> → <em>M. hyopneumoniae</em>."
+          ]
+        },
+        {
+          "agent": 4,
+          "title": "Antes de fechar",
+          "items": [
+            "<b>Consolidação cranioventral não é exclusiva do <em>M. hyopneumoniae</em>:</b> influenza A, <em>P. multocida</em>, <em>B. bronchiseptica</em> e <em>G. parasuis</em> dão o mesmo padrão.",
+            "<b>Coinfecção é a regra</b> — isole bactéria mesmo com agente primário suspeito.",
+            "PCR positivo não prova causa: case o resultado com a lesão e com o lobo acometido.",
+            "Colha de <b>animal não tratado</b> e que não seja refugo terminal.",
+            "<em>M. hyorhinis</em> não sai no PCR de <em>M. hyopneumoniae</em>; peça o ensaio próprio.",
+            "<em>G. parasuis</em> em nariz ou traqueia <b>não prova doença</b> — ele coloniza o suíno sadio."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "callouts",
+      "title": "O que não é agente, mas decide o surto",
+      "sub": "Em terminação, o ambiente e o manejo determinam se a infecção endêmica vira doença clínica. Sem corrigir estes pontos, nenhum protocolo antimicrobiano sustenta resultado.",
+      "callouts": [
+        {
+          "title": "Ambiente",
+          "items": [
+            "Amônia e demais gases elevados.",
+            "Excesso de poeira.",
+            "Oscilação térmica entre o dia e a noite.",
+            "Umidade relativa <b>abaixo de 40% ou acima de 90%</b>.",
+            "Ventilação insuficiente, agravada por cortinas fechadas no frio."
+          ]
+        },
+        {
+          "title": "Manejo e estrutura",
+          "items": [
+            "Alta densidade de alojamento.",
+            "Mistura de lotes, sobretudo com diferença de idade <b>maior que 2 semanas</b>.",
+            "Múltiplas origens no mesmo lote.",
+            "Ausência de todos dentro / todos fora e de vazio sanitário — o todos dentro / todos fora do nascimento ao abate reduz lesão pulmonar e melhora o ganho.",
+            "Transporte e movimentação na fase aguda.",
+            "Transmissão por aerossol: <em>M. hyopneumoniae</em> já foi demonstrado a <b>até 9,2 km</b>, o que torna a densidade de granjas da região um fator por si."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "callouts",
+      "title": "Fora do complexo: notificação obrigatória",
+      "sub": "Estas não entram no diferencial de rotina, mas um quadro respiratório com mortalidade alta associada a sinais reprodutivos exige notificação ao serviço veterinário oficial — em Santa Catarina, a CIDASC — antes de ser tratado como complexo respiratório.",
+      "callouts": [
+        {
+          "alert": true,
+          "title": "Situação sanitária do Brasil",
+          "items": [
+            "<b>Peste suína clássica:</b> Santa Catarina integra a zona livre, reconhecida pela WOAH em 2015 em conjunto com o Rio Grande do Sul. O Brasil mantém zonas livres desde 1982 e há projeto de erradicação nacional em curso.",
+            "<b>Peste suína africana:</b> erradicada do Brasil desde 1984. Último foco em Pernambuco, em novembro de 1981.",
+            "<b>PRRS:</b> <b>nunca diagnosticada no Brasil</b>; considerada exótica. É a principal razão para notificar um surto respiratório atípico com aborto.",
+            "<b>Gastroenterite transmissível:</b> nunca diagnosticada no Brasil; considerada exótica.",
+            "<b>Doença de Aujeszky:</b> o Brasil adota regionalização pela Instrução Normativa nº 8, de 3 de abril de 2007, com adesão voluntária dos estados. Ver o item 4 da lista de verificação abaixo."
+          ]
+        },
+        {
+          "title": "Quando notificar",
+          "items": [
+            "Mortalidade respiratória acima do esperado para o lote, sem resposta ao tratamento.",
+            "Quadro respiratório somado a aborto, leitão nascido morto ou mumificado.",
+            "Sinal nervoso em vários animais do mesmo lote.",
+            "Cianose de extremidades com hemorragia cutânea e esplenomegalia.",
+            "Qualquer suspeita obriga notificação imediata, independentemente de o estado ter adesão ao programa."
+          ]
+        }
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "group": "padroes",
+      "src": "/fotos/diferencial-respiratorio-suino/padroes-1.jpg",
+      "label": "Figura 21.7 · Zimmerman, p. 446",
+      "caption": "Padrões de pneumonia em suínos e possíveis causas. <b>(a)</b> Broncopneumonia, cranioventral e firme, comumente bacteriana (<em>Pasteurella multocida</em>, <em>Streptococcus suis</em>, <em>Glaesserella parasuis</em>, <em>Bordetella bronchiseptica</em>, <em>Trueperella pyogenes</em>); costuma seguir um insulto primário (<em>Mycoplasma hyopneumoniae</em> ou vírus influenza A). <b>(b)</b> Pneumonia intersticial, difusa e borrachuda, comumente por vírus sistêmicos (vírus da síndrome respiratória e reprodutiva dos suínos ou circovírus suíno tipo 2), sepse por gram-negativos (<em>Salmonella choleraesuis</em> ou <em>G. parasuis</em>) e/ou migração de ascarídeos. <b>(c)</b> Pneumonia broncointersticial, cranioventral firme e caudal borrachuda, combinação de agentes de broncopneumonia e de pneumonia intersticial. <b>(d)</b> Broncopneumonia necro-hemorrágica e pleurite fibrinosa, região do hilo ou áreas cranioventrais muito firmes, comumente <em>Actinobacillus pleuropneumoniae</em>, <em>Actinobacillus suis</em>; <em>B. bronchiseptica</em> (em leitões muito jovens). <b>(e)</b> Pneumonia embólica, multifocal e nodular, estreptococos, <em>T. pyogenes</em>, bactérias piogênicas e tuberculose. <b>(f)</b> Pleurite fibrosante, difusa e bilateral, <em>Mycoplasma hyorhinis</em>, <em>G. parasuis</em> ou <em>S. suis</em>."
+    },
+    {
+      "group": "mhyo",
+      "src": "/fotos/diferencial-respiratorio-suino/mhyo-1.jpg",
+      "label": "Figura 53.1 · Zimmerman, p. 1040",
+      "caption": "Vista dorsal dos pulmões com consolidação cranioventral causada por <em>Mycoplasma hyopneumoniae</em>."
+    },
+    {
+      "group": "mhyo",
+      "src": "/fotos/diferencial-respiratorio-suino/mhyo-2.jpg",
+      "label": "Figura 5.2 · Maes, p. 103",
+      "caption": "Pulmão normal <b>(A)</b>. Visões dorsal <b>(B)</b> e ventral <b>(C)</b> de um pulmão com lesões de consolidação pulmonar cranioventral (setas brancas) causadas por <em>M. hyopneumoniae</em>."
+    },
+    {
+      "group": "mhyo",
+      "src": "/fotos/diferencial-respiratorio-suino/mhyo-3.jpg",
+      "label": "Figura 5.5 · Maes, p. 104",
+      "caption": "<b>(A)</b> Pulmões de <b>suíno em terminação</b> com consolidação pulmonar cranioventral (setas) e lesões semelhantes a broncopneumonia supurativa. <b>(B)</b> Material catarro-purulento exsudando do corte das vias aéreas brônquicas (setas)."
+    },
+    {
+      "group": "mhyo",
+      "src": "/fotos/diferencial-respiratorio-suino/mhyo-4.jpg",
+      "label": "Figura 5.9 · Maes, p. 106",
+      "caption": "Pulmão com consolidação pulmonar cranioventral (seta branca) junto de lesões de pleurite fibrinosa (seta preta) nos lobos apical e médio direitos. Neste caso não é possível avaliar a consolidação no pulmão direito."
+    },
+    {
+      "group": "app",
+      "src": "/fotos/diferencial-respiratorio-suino/app-1.jpg",
+      "label": "Figura 43.2 · Zimmerman, p. 864",
+      "caption": "Animal que morreu de pleuropneumonia superaguda causada por <em>Actinobacillus pleuropneumoniae</em>, apresentando a típica secreção nasal espumosa e tingida de sangue."
+    },
+    {
+      "group": "app",
+      "src": "/fotos/diferencial-respiratorio-suino/app-2.jpg",
+      "label": "Figura 43.3 · Zimmerman, p. 865",
+      "caption": "Pleuropneumonia fibrinonecrótica difusa grave causada por <em>Actinobacillus pleuropneumoniae</em>. Os pulmões estão borrachudos e não colapsam, com pleurite fibrinosa difusa florida, hemorragias multifocais e edema interlobular hemorrágico."
+    },
+    {
+      "group": "app",
+      "src": "/fotos/diferencial-respiratorio-suino/app-3.jpg",
+      "label": "Figura 43.4 · Zimmerman, p. 865",
+      "caption": "Pleuropneumonia superaguda (infecção experimental) causada por <em>Actinobacillus pleuropneumoniae</em>. Neste caso há pneumonia lobar grave, bilateral, necrosante e hemorrágica nas <b>regiões ventrais dos lobos cranial (setas grossas) e médio</b>. Os septos interlobulares também estão expandidos por edema, de forma mais acentuada nas regiões dorsais dos lobos médios (setas finas)."
+    },
+    {
+      "group": "app",
+      "src": "/fotos/diferencial-respiratorio-suino/app-4.jpg",
+      "label": "Figura 43.5 · Zimmerman, p. 866",
+      "caption": "Epicardite e pericardite fibrinosas em suíno com pleuropneumonia grave causada por <em>Actinobacillus pleuropneumoniae</em>."
+    },
+    {
+      "group": "pcv2",
+      "src": "/fotos/diferencial-respiratorio-suino/pcv2-1.jpg",
+      "label": "Figura 27.3 · Zimmerman, p. 534",
+      "caption": "Suíno afetado por doença sistêmica por PCV2 (à esquerda) comparado a um suíno sadio da mesma idade (à direita). Observe o retardo grave de crescimento e a coluna vertebral marcada do animal afetado."
+    },
+    {
+      "group": "pcv2",
+      "src": "/fotos/diferencial-respiratorio-suino/pcv2-2.jpg",
+      "label": "Figura 22.5 (a) · Zimmerman, p. 465",
+      "caption": "Glomerulonefrite em <b>suíno de terminação</b> com infecção por PCV2. Observe as hemorragias petequiais."
+    },
+    {
+      "group": "pcv2",
+      "src": "/fotos/diferencial-respiratorio-suino/pcv2-3.jpg",
+      "label": "Figura 27.7 · Zimmerman, p. 537",
+      "caption": "Suíno afetado pela síndrome da dermatite e nefropatia. Presença de lesões cutâneas necrosantes de distribuição generalizada, que tendem a ser mais numerosas e coalescentes nos membros posteriores."
+    },
+    {
+      "group": "pmul",
+      "src": "/fotos/diferencial-respiratorio-suino/pmul-1.jpg",
+      "label": "Figura 54.8 · Zimmerman, p. 1064",
+      "caption": "Pasteurelose pneumônica com consolidação cranioventral rosa-escura a vermelha, bem demarcada do pulmão rosa normal."
+    },
+    {
+      "group": "pmul",
+      "src": "/fotos/diferencial-respiratorio-suino/pmul-2.jpg",
+      "label": "Figura 54.9 · Zimmerman, p. 1064",
+      "caption": "Apresentação menos comum de pasteurelose pneumônica grave. Há descoloração cranioventral vermelho-enegrecida com pleurite fibrinosa abundante."
+    },
+    {
+      "group": "pmul",
+      "src": "/fotos/diferencial-respiratorio-suino/pmul-3.jpg",
+      "label": "Figura 54.10 · Zimmerman, p. 1065",
+      "caption": "Corte transversal do pulmão da figura 54.9, mostrando as áreas bem demarcadas de consolidação vermelho-enegrecida e a consolidação vermelho-escura adjacente. A superfície pleural ventral está recoberta por uma camada de fibrina."
+    },
+    {
+      "group": "glas",
+      "src": "/fotos/diferencial-respiratorio-suino/glas-1.jpg",
+      "label": "Figura 50.2 (a) · Zimmerman, p. 1002",
+      "caption": "Polisserosite caracterizada por exsudato fibrinopurulento nas cavidades peritoneal e torácica. Observe a quantidade significativa de líquido no tórax."
+    },
+    {
+      "group": "glas",
+      "src": "/fotos/diferencial-respiratorio-suino/glas-2.jpg",
+      "label": "Figura 50.2 (b) · Zimmerman, p. 1002",
+      "caption": "Exsudato fibrinopurulento na superfície epicárdica (epicardite fibrinopurulenta)."
+    },
+    {
+      "group": "bord",
+      "src": "/fotos/diferencial-respiratorio-suino/bord-1.jpg",
+      "label": "Figura 44.2 · Zimmerman, p. 884",
+      "caption": "Lesões pulmonares macroscópicas em suíno infectado por <em>Bordetella bronchiseptica</em>, mostrando consolidação cranioventral aguda."
+    },
+    {
+      "group": "bord",
+      "src": "/fotos/diferencial-respiratorio-suino/bord-2.jpg",
+      "label": "Figura 44.3 · Zimmerman, p. 884",
+      "caption": "Lesões pulmonares macroscópicas em suíno infectado por <em>Bordetella bronchiseptica</em>, mostrando lesões fibróticas crônicas nos lobos cranial direito (setas) e médio, 4 semanas após a infecção."
+    },
+    {
+      "group": "bord",
+      "src": "/fotos/diferencial-respiratorio-suino/bord-3.jpg",
+      "label": "Figura 44.1 · Zimmerman, p. 883",
+      "caption": "Cortes transversais do focinho de <b>(a)</b> suínos não infectados de 5 semanas, mostrando conchas nasais normais, e <b>(b)</b> suínos de 5 semanas infectados por <em>Bordetella bronchiseptica</em>, mostrando atrofia moderada das conchas."
+    },
+    {
+      "group": "iav",
+      "src": "/fotos/diferencial-respiratorio-suino/iav-1.jpg",
+      "label": "Figura 8.2 · Maes, p. 150",
+      "caption": "Visões dorsal e ventral (à esquerda e à direita, respectivamente) de um pulmão com lesões de consolidação pulmonar cranioventral (setas brancas) causadas por <b>desafio experimental com vírus influenza A suíno</b>."
+    },
+    {
+      "group": "hyor",
+      "src": "/fotos/diferencial-respiratorio-suino/hyor-1.jpg",
+      "label": "Figura 13.3 · Maes, p. 255",
+      "caption": "Leitão com infecção por <em>M. hyorhinis</em> e polisserosite diagnosticada."
+    },
+    {
+      "group": "hyor",
+      "src": "/fotos/diferencial-respiratorio-suino/hyor-2.jpg",
+      "label": "Figura 13.4 · Maes, p. 255",
+      "caption": "Pericardite e pleurite em infecção por <em>M. hyorhinis</em>."
+    },
+    {
+      "group": "hyor",
+      "src": "/fotos/diferencial-respiratorio-suino/hyor-3.jpg",
+      "label": "Figura 13.5 · Maes, p. 256",
+      "caption": "Caso de pleurite com infecção por <em>M. hyorhinis</em> confirmada."
+    }
+  ],
+  "updatedAt": "2026-11-01T19:15:15.081Z"
+}

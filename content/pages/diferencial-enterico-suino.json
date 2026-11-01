@@ -1,0 +1,622 @@
+{
+  "slug": "diferencial-enterico-suino",
+  "topic": "enterico",
+  "type": "matrix",
+  "title": "Diferencial Entérico Suíno",
+  "eyebrow": "Terminação · 65 a 175 dias de idade",
+  "standfirst": "Quatro agentes de diarreia na terminação comparados pelo que se vê em campo, na necropsia e no laboratório. <strong>Dois dos quatro agentes têm o pico descrito antes da fase de terminação e estão marcados como tal.</strong>",
+  "agents": [
+    {
+      "id": "law",
+      "sci": "Lawsonia intracellularis",
+      "common": "Ileíte · enteropatia proliferativa",
+      "color": 1
+    },
+    {
+      "id": "sal",
+      "sci": "Salmonella spp.",
+      "common": "Salmonelose",
+      "color": 2
+    },
+    {
+      "id": "bhyo",
+      "sci": "Brachyspira hyodysenteriae e B. hampsonii",
+      "common": "Disenteria suína",
+      "color": 3
+    },
+    {
+      "id": "bpil",
+      "sci": "Brachyspira pilosicoli",
+      "common": "Espiroquetose · colite",
+      "color": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "clin",
+      "name": "Clínico"
+    },
+    {
+      "id": "nec",
+      "name": "Necropsia"
+    },
+    {
+      "id": "lab",
+      "name": "Laboratório"
+    }
+  ],
+  "rows": [
+    {
+      "label": "Doença",
+      "cells": {
+        "law": {
+          "html": "Três formas: <b>adenomatose intestinal</b> (crônica), <b>enteropatia proliferativa hemorrágica — EPH</b> (aguda) e <b>subclínica</b>."
+        },
+        "sal": {
+          "html": "Duas apresentações, por sorovares distintos: <b>enterocolite</b> (Typhimurium e variante monofásica I 4,[5],12:i:-) e <b>septicemia</b> (Choleraesuis)."
+        },
+        "bhyo": {
+          "html": "Disenteria suína — colite muco-hemorrágica. Duas espécies fortemente hemolíticas dão <b>quadro indistinguível</b>: <i>B. hyodysenteriae</i>, o agente clássico, e <i>B. hampsonii</i>, emergente e <b>sem relato confirmado no Brasil</b>."
+        },
+        "bpil": {
+          "html": "Espiroquetose intestinal suína (colite espiroquetal)."
+        }
+      }
+    },
+    {
+      "label": "Faixa etária",
+      "block": "clin",
+      "cells": {
+        "law": {
+          "html": "Crônica: <b>42 a 140 dias de vida</b><span class=\"aloj\">Até 75 dias de alojamento</span>Aguda (EPH): <b>120 a 365 dias de vida</b><span class=\"aloj\">A partir de 55 dias de alojamento, ultrapassando a saída do lote</span>",
+          "key": true
+        },
+        "sal": {
+          "html": "Enterocolite: <b>21 a 70 dias de vida</b><span class=\"aloj\">Até 5 dias de alojamento</span>Septicêmica: <b>42 a 112 dias de vida</b><span class=\"aloj\">Até 47 dias de alojamento</span>",
+          "key": true
+        },
+        "bhyo": {
+          "html": "Qualquer desmamado é suscetível, com concentração em crescimento e terminação: <b>65 a 175 dias de vida</b><span class=\"aloj\">0 a 110 dias de alojamento</span>Começa poucas semanas após a saída da creche, na troca de dieta e na retirada do antimicrobiano.",
+          "key": true
+        },
+        "bpil": {
+          "html": "Pico logo após o desmame e em lotes recém-misturados: <b>42 a 112 dias de vida</b><span class=\"aloj\">Até 47 dias de alojamento</span>Ocorre também ao longo da terminação e, ocasionalmente, em fêmeas gestantes.",
+          "key": true
+        }
+      }
+    },
+    {
+      "label": "Morbidade",
+      "block": "clin",
+      "cells": {
+        "law": {
+          "html": "Alta, com grande parcela subclínica."
+        },
+        "sal": {
+          "html": "Enterocolite: espalha rápido e pode atingir a maior parte da baia em poucos dias. Septicêmica: variável, em geral <b>abaixo de 10%</b>."
+        },
+        "bhyo": {
+          "html": "Pode <b>chegar a 90%</b> do lote."
+        },
+        "bpil": {
+          "html": "De 17 a 100% se infectam; <b>17 a 67% desenvolvem diarreia</b>."
+        }
+      }
+    },
+    {
+      "label": "Mortalidade",
+      "block": "clin",
+      "cells": {
+        "law": {
+          "html": "Baixa na forma crônica. Na EPH, <b>cerca de metade dos animais clinicamente afetados morre</b>.",
+          "key": true
+        },
+        "sal": {
+          "html": "Enterocolite: baixa, e só após vários dias de diarreia. Septicêmica: <b>letalidade alta</b>, sobretudo nos mais jovens.",
+          "key": true
+        },
+        "bhyo": {
+          "html": "Até <b>30%</b> se o tratamento demora; acima de 50% em animais não tratados em condição experimental.",
+          "key": true
+        },
+        "bpil": {
+          "html": "<b>Rara</b> em condições de campo.",
+          "key": true
+        }
+      }
+    },
+    {
+      "label": "Febre",
+      "block": "clin",
+      "cells": {
+        "law": {
+          "html": "Ausente ou discreta. <b>Na EPH o sinal é palidez acentuada, não febre.</b>",
+          "key": true
+        },
+        "sal": {
+          "html": "Presente nas duas formas. Na septicêmica, <b>40,5 a 41,6 °C</b> com prostração — é a única coluna em que febre alta e sustentada é esperada.",
+          "key": true
+        },
+        "bhyo": {
+          "html": "Pode haver <b>40 a 40,5 °C</b> no início, de forma inconstante. <b>Não confirma nem descarta.</b>"
+        },
+        "bpil": {
+          "html": "Ocasional."
+        }
+      }
+    },
+    {
+      "label": "Estado geral",
+      "block": "clin",
+      "cells": {
+        "law": {
+          "html": "Crônica: lote desuniforme, <b>come normalmente e não ganha peso</b>. EPH: mucosas pálidas, apatia e morte súbita."
+        },
+        "sal": {
+          "html": "Enterocolite: queda de consumo e desidratação. Septicêmica: <b>animais parados, amontoados ou achados mortos</b>, com cianose de orelhas, extremidades e abdome, tosse leve, dispneia e icterícia."
+        },
+        "bhyo": {
+          "html": "Consumo variável, desidratação, emagrecimento, flancos encovados e períneo sujo."
+        },
+        "bpil": {
+          "html": "Flancos encovados e aspecto arrepiado, períneo sujo, mas o <b>animal segue comendo</b> — dissociação entre diarreia persistente e estado geral preservado.",
+          "key": true
+        }
+      }
+    },
+    {
+      "label": "Fezes típicas",
+      "block": "clin",
+      "cells": {
+        "law": {
+          "html": "Crônica: pastosas a líquidas, <b>cinza-esverdeadas</b>. Na EPH: <b>escuras e alcatroadas (melena)</b>, muitas vezes o primeiro sinal visível.",
+          "key": true
+        },
+        "sal": {
+          "html": "Começa <b>aquosa e amarelada, sem sangue nem muco</b>. Recidiva em novos surtos, dando a impressão de diarreia que vai e volta por semanas.",
+          "key": true
+        },
+        "bhyo": {
+          "html": "Começa mole, amarelada a acinzentada. Em horas a dias vira <b>muito muco com raias de sangue</b> e depois fezes aquosas com sangue, muco e retalhos brancos de fibrina.",
+          "key": true
+        },
+        "bpil": {
+          "html": "Aspecto de <b>cimento fresco ou mingau, brilhantes</b> — na terminação esse pode ser o único sinal. Em recria, aquosas a mucoides, verdes ou marrons.",
+          "key": true
+        }
+      }
+    },
+    {
+      "label": "Sangue nas fezes",
+      "block": "clin",
+      "cells": {
+        "law": {
+          "html": "<span class=\"tag delgado\">Delgado</span><br>Ausente na forma crônica. Na EPH, <b>escuro e digerido</b>.",
+          "key": true
+        },
+        "sal": {
+          "html": "<span class=\"tag ambos\">Ambos</span><br>Pode aparecer esporadicamente, <b>mas raramente na abundância</b> da disenteria ou da EPH."
+        },
+        "bhyo": {
+          "html": "<span class=\"tag grosso\">Grosso</span><br>Marcante, <b>vermelho-vivo misturado ao muco</b>.",
+          "key": true
+        },
+        "bpil": {
+          "html": "<span class=\"tag neg\">Em regra ausente</span><br>Ocasionalmente raias espessas de muco e <b>pontos de sangue</b> — a ausência total não é regra absoluta.",
+          "key": true
+        }
+      }
+    },
+    {
+      "label": "Muco",
+      "block": "clin",
+      "cells": {
+        "law": {
+          "html": "Ausente na forma crônica."
+        },
+        "sal": {
+          "html": "Escasso no início."
+        },
+        "bhyo": {
+          "html": "<b>Muito abundante</b> — o achado mais característico.",
+          "key": true
+        },
+        "bpil": {
+          "html": "Pode haver, em <b>tufos espessos</b>."
+        }
+      }
+    },
+    {
+      "label": "Curso e recidiva",
+      "block": "clin",
+      "cells": {
+        "law": {
+          "html": "Recuperação em cerca de 5 semanas na forma crônica."
+        },
+        "sal": {
+          "html": "Diarreia individual de 3 a 7 dias, com recidivas. Parte dos recuperados vira <b>portadora e eliminadora intermitente por semanas a meses</b>."
+        },
+        "bhyo": {
+          "html": "Incubação de 4 dias a 3 meses, em geral <b>10 a 14 dias</b>. Avança aos poucos, com novos doentes a cada dia. Em granja endêmica, <b>recidiva a cada 3 ou 4 semanas</b>, após retirada do antimicrobiano, mistura de lotes, troca de ração ou variação térmica.",
+          "key": true
+        },
+        "bpil": {
+          "html": "Diarreia <b>autolimitante de 2 a 14 dias</b>, com recidiva frequente — muitas vezes por reinfecção com outra cepa."
+        }
+      }
+    },
+    {
+      "label": "Perda de desempenho",
+      "block": "clin",
+      "cells": {
+        "law": {
+          "html": "<b>Muito importante.</b> A forma crônica reduz o ganho diário em <b>6 a 20%</b>, e a subclínica custa sem gerar diarreia visível."
+        },
+        "sal": {
+          "html": "Importante, somada à mortalidade; alguns animais ficam refugos e cronicamente emagrecidos."
+        },
+        "bhyo": {
+          "html": "<b>Muito importante.</b> Mesmo os que se recuperam seguem com ganho deprimido."
+        },
+        "bpil": {
+          "html": "Queda de conversão e atraso para o peso de abate; <b>a infecção subclínica já reduz o ganho</b>."
+        }
+      }
+    },
+    {
+      "label": "Principal localização",
+      "block": "nec",
+      "cells": {
+        "law": {
+          "html": "<b>Íleo final e ceco</b> — o último trecho do intestino delgado, logo antes da válvula ileocecal. Casos graves avançam para jejuno e cólon espiral. A lesão mais precoce fica cerca de <b>10 cm antes da válvula ileocecal</b>.",
+          "key": true
+        },
+        "sal": {
+          "html": "<b>Cólon espiral</b>, estendendo-se a ceco, íleo e, ocasionalmente, cólon descendente e reto.",
+          "key": true
+        },
+        "bhyo": {
+          "html": "Do <b>ceco ao cólon descendente</b>, com o cólon espiral mais constantemente afetado. <b>Intestino delgado íntegro.</b>",
+          "key": true
+        },
+        "bpil": {
+          "html": "Ceco e cólon."
+        }
+      }
+    },
+    {
+      "label": "Necropsia",
+      "block": "nec",
+      "cells": {
+        "law": {
+          "html": "Mucosa espessada em pregas, de <b>aspecto cerebriforme</b>, úmida mas não mucosa. Na EPH: intestino dilatado, com <b>coágulo formado e molde fibrino-hemorrágico dentro do íleo</b> e fezes escuras no reto. <b>Sem petéquias, erosões ou úlceras.</b>",
+          "key": true
+        },
+        "sal": {
+          "html": "Enterotiflocolite. Vai de inflamação catarral com hemorragia na parede a erosões rasas cobertas por material fibrinonecrótico cinza-amarelado que se destaca. Nos casos crônicos, <b>úlceras em botão</b>, profundas e bem delimitadas. Conteúdo escasso e bilioso, às vezes com material escuro \"de areia\".",
+          "key": true
+        },
+        "bhyo": {
+          "html": "<b>Tiflocolite muco-hemorrágica.</b> Parede, mesentério e linfonodos hiperêmicos e inchados; mucosa edemaciada, com <b>perda das rugas normais</b>, coberta por muco, fibrina e pontos de sangue. Casos crônicos: exsudato fibrinonecrótico fino que lembra salmonelose. <b>Sem úlcera profunda.</b>",
+          "key": true
+        },
+        "bpil": {
+          "html": "<b>Lesão discreta, fácil de passar batido.</b> Ceco e cólon moles e cheios de líquido, serosa edemaciada, linfonodos aumentados; conteúdo aquoso, verde ou amarelo e <b>espumoso</b>. Congestão leve e erosões pequenas; em fase tardia, mucosa espessada com petéquias.",
+          "key": true
+        }
+      }
+    },
+    {
+      "label": "Linfonodos mesentéricos",
+      "block": "nec",
+      "cells": {
+        "law": {
+          "html": "Sem aumento marcante."
+        },
+        "sal": {
+          "html": "<b>Marcadamente aumentados, congestos e edematosos</b>, sobretudo os ileocecais. Achado consistente.",
+          "key": true
+        },
+        "bhyo": {
+          "html": "Aumento ausente ou discreto."
+        },
+        "bpil": {
+          "html": "Aumentados, junto dos colônicos."
+        }
+      }
+    },
+    {
+      "label": "Lesões sistêmicas",
+      "block": "nec",
+      "cells": {
+        "law": {
+          "html": "Ausentes — a infecção <b>não se dissemina</b> para outros órgãos."
+        },
+        "sal": {
+          "html": "<b>Presentes na forma septicêmica:</b> pneumonia intersticial, <b>focos de necrose no fígado de 1 a 2 mm</b> (nódulos paratíficos), baço aumentado e roxo, petéquias no córtex do rim e poliserosite fibrinosa.",
+          "key": true
+        },
+        "bhyo": {
+          "html": "Ausentes."
+        },
+        "bpil": {
+          "html": "Ausentes."
+        }
+      }
+    },
+    {
+      "label": "Diagnóstico de escolha",
+      "block": "lab",
+      "cells": {
+        "law": {
+          "html": "<b>Imuno-histoquímica no íleo</b> — padrão-ouro. <b>PCR</b> em fezes ou mucosa complementa. PCR positivo sozinho não prova doença.",
+          "key": true
+        },
+        "sal": {
+          "html": "<b>Cultura, sorotipagem e antibiograma.</b> A sorotipagem é obrigatória: separa Typhimurium de Choleraesuis. PCR só para triagem. <b>Úlcera em botão também ocorre na peste suína clássica.</b>"
+        },
+        "bhyo": {
+          "html": "<b>Cultura anaeróbia seletiva</b> e depois <b>MALDI-TOF ou PCR</b> para a espécie. Dois cuidados: <b>PCR só de <i>B. hyodysenteriae</i> não detecta <i>B. hampsonii</i></b>; e existem cepas fracamente hemolíticas, então a hemólise não fecha nem descarta.",
+          "key": true
+        },
+        "bpil": {
+          "html": "<b>PCR espécie-específico</b> com histopatologia; cultura em <b>meio CVS</b>, porque o meio BJ inibe. <b>Animal sadio também elimina</b>, então isolar não fecha. Outras <i>Brachyspira</i> fracamente hemolíticas confundem: sem a espécie definida, o isolado não é <i>B. pilosicoli</i>.",
+          "key": true
+        }
+      }
+    },
+    {
+      "label": "Amostra ideal",
+      "block": "lab",
+      "cells": {
+        "law": {
+          "html": "Íleo final em formol a 10%, <b>vários segmentos</b> — a lesão é salteada. Fezes ou raspado refrigerados para PCR. Animal <b>não tratado</b>."
+        },
+        "sal": {
+          "html": "Fezes e conteúdo intestinal frescos, cólon espiral e linfonodo ileocecal. Na suspeita septicêmica, incluir fígado, baço e pulmão."
+        },
+        "bhyo": {
+          "html": "Mucosa de cólon e fezes de <b>vários animais agudos e não tratados</b>, úmidas e refrigeradas. <b>Pool de cinco swabs retais aumenta a detecção.</b> Fluido oral só para triagem de baia."
+        },
+        "bpil": {
+          "html": "Mucosa de cólon ou fezes frescas de vários animais afetados, correlacionadas com a lesão."
+        }
+      }
+    },
+    {
+      "label": "Pista forte no campo",
+      "cells": {
+        "law": {
+          "html": "Lote desuniforme que <b>come e não ganha peso</b>; ou <b>morte súbita de animal pálido</b>, em boa condição corporal, com melena no reto.",
+          "key": true
+        },
+        "sal": {
+          "html": "Diarreia amarelada que <b>vai e volta</b>, com febre; ou animais amontoados, cianóticos, com mortalidade súbita e linfonodo ileocecal muito aumentado.",
+          "key": true
+        },
+        "bhyo": {
+          "html": "Diarreia com <b>muito muco e sangue vivo</b>, com <b>delgado normal</b> à necropsia. Quadro típico e PCR de <i>B. hyodysenteriae</i> negativo: peça <i>B. hampsonii</i>.",
+          "key": true
+        },
+        "bpil": {
+          "html": "Fezes de <b>cimento fresco</b> em lote recém-misturado, sem sangue, com animais alertas e comendo.",
+          "key": true
+        }
+      }
+    }
+  ],
+  "sections": [
+    {
+      "type": "keygrid",
+      "title": "Chave rápida de decisão",
+      "sub": "Três perguntas que resolvem a maioria dos casos antes de o laudo chegar.",
+      "cards": [
+        {
+          "agent": 3,
+          "title": "1 · Onde está a lesão?",
+          "items": [
+            "<b>Só intestino grosso, delgado íntegro</b> → Brachyspira.",
+            "<b>Íleo espessado e cerebriforme</b> → Lawsonia.",
+            "<b>Cólon espiral com úlceras em botão, linfonodo ileocecal muito aumentado e lesão em outros órgãos</b> → Salmonella.",
+            "<b>Estômago com úlcera na pars esophagea e intestino sem lesão</b> → úlcera gástrica, não enterite."
+          ]
+        },
+        {
+          "agent": 1,
+          "title": "2 · Como é o sangue?",
+          "items": [
+            "<b>Escuro, alcatroado, digerido</b> → origem alta → EPH por Lawsonia <em>ou</em> úlcera gástrica.",
+            "<b>Vermelho-vivo, misturado a muco</b> → origem no grosso → disenteria suína.",
+            "<b>Sem sangue, fezes de cimento fresco</b> → <em>B. pilosicoli</em>.",
+            "<b>Aquosa amarelada sem sangue, com febre</b> → Salmonella."
+          ]
+        },
+        {
+          "agent": 2,
+          "title": "3 · Tem febre?",
+          "items": [
+            "<b>40,5 a 41,6 °C com prostração e cianose</b> → Salmonella até prova em contrário.",
+            "<b>40 a 40,5 °C, inconstante</b> → compatível com disenteria; não serve para descartar.",
+            "<b>Sem febre, animal pálido</b> → EPH ou úlcera gástrica.",
+            "<b>Sem febre, animal alerta e comendo</b> → <em>B. pilosicoli</em>."
+          ]
+        },
+        {
+          "agent": 4,
+          "title": "Antes de fechar",
+          "items": [
+            "Coinfecção é a regra — Lawsonia e <em>B. pilosicoli</em> aparecem juntas com frequência.",
+            "Um PCR positivo não prova causa: case o achado com a lesão e com o segmento acometido.",
+            "Colha de animal <b>não tratado</b>; antimicrobiano prévio derruba cultura e PCR.",
+            "PCR dirigido só a <em>B. hyodysenteriae</em> não enxerga <em>B. hampsonii</em>."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "keygrid",
+      "title": "Morte súbita com palidez — o que não é Lawsonia",
+      "sub": "Três quadros não infecciosos que reproduzem o achado de campo da EPH: animal em boa condição corporal, pálido, morto sem sinal prévio. Só a necropsia separa.",
+      "cards": [
+        {
+          "agent": 1,
+          "title": "Úlcera gástrica da pars esophagea",
+          "items": [
+            "Pico de ocorrência em suínos de <b>3 a 6 meses</b> — exatamente a terminação. Mortalidade de 1 a 2% em algumas granjas, com surtos esporádicos maiores.",
+            "Carcaça <b>pálida e em boa condição corporal</b>; estômago com sangue coagulado ou livre misturado ao alimento; sangue no intestino mais escuro, visto como <b>melena no cólon</b>.",
+            "Com perda lenta: palidez, letargia, fraqueza, aumento da frequência respiratória, anorexia, fezes escuras, ranger de dentes e dorso arqueado. <b>Temperatura retal frequentemente abaixo do normal.</b>",
+            "<b>Nem todo animal que morre de úlcera tem sangue no estômago</b> — a conduta obrigatória é abrir a grande curvatura, everter e examinar a pars esophagea.",
+            "Ligada a ração finamente moída e peletizada e a <b>interrupção de arraçoamento com queda brusca de consumo</b>."
+          ]
+        },
+        {
+          "agent": 2,
+          "title": "Vôlvulo (torção mesentérica)",
+          "items": [
+            "Torção do eixo longo do mesentério, comum e de morte rápida; rotação em geral anti-horária vista pelo aspecto ventrocaudal.",
+            "<b>Estômago e duodeno poupados, com transição abrupta</b> para alças muito turgidas e vermelho-enegrecidas; lúmen distendido por gás e líquido vermelho-escuro; vasos do mesentério muito ingurgitados.",
+            "Abdome distende rapidamente.",
+            "Risco: interrupção de arraçoamento seguida de ingestão ávida, classificação e mistura de lotes, e dieta muito fermentável."
+          ]
+        },
+        {
+          "agent": 4,
+          "title": "Síndrome hemorrágica intestinal",
+          "items": [
+            "Também chamada de síndrome da distensão intestinal ou \"intestino sangrento\". Intestinos com o <b>mesmo aspecto do vôlvulo, porém sem torção nem deslocamento</b> identificável à necropsia.",
+            "Ocorre nas mesmas condições: ração muito fermentável, sobretudo líquida. A associação com soro de leite à vontade deu origem ao nome \"timpanismo do soro\".",
+            "Pressão intra-abdominal medida logo após a morte na ordem de 40 mmHg, suficiente para ocluir as veias mesentéricas.",
+            "O papel de <i>Clostridium</i> ou de outras bactérias é descartado pela maior parte dos autores."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "callouts",
+      "title": "Notificação obrigatória",
+      "sub": "Dois diferenciais que nenhum laudo de rotina procura e cuja suspeita obriga comunicação imediata ao serviço veterinário oficial.",
+      "callouts": [
+        {
+          "title": "Peste suína clássica e peste suína africana",
+          "items": [
+            "<b>Por que entra no diferencial entérico:</b> a forma crônica da peste suína clássica produz <b>úlceras em botão no ceco e no cólon</b> — o mesmo achado tido como característico da salmonelose crônica. A forma aguda cursa com febre, letargia, anorexia, amontoamento e sinais digestivos, e é confundida com salmonelose, PRRS, síndrome da dermatite e nefropatia e peste suína africana.",
+            "<b>Achados que chamam atenção:</b> linfonodos aumentados e hemorrágicos, hemorragias na pele, tonsila, laringe, bexiga, rim e junção ileocecal, e <b>infarto multifocal na margem do baço</b> — característico, mas nem sempre presente.",
+            "<b>Conduta:</b> suspeita de doença vesicular ou hemorrágica em suínos não se investiga por conta própria. Isolar, não medicar e <b>comunicar imediatamente ao serviço veterinário oficial</b>.",
+            "<b>Status sanitário:</b> Santa Catarina e Rio Grande do Sul integram a zona livre de peste suína clássica. Confirme o ato normativo e a data vigentes antes de citar essa condição no relatório."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "keygrid",
+      "title": "Outros diferenciais da fase",
+      "sub": "Causas que entram quando a matriz principal não fecha.",
+      "cards": [
+        {
+          "agent": 3,
+          "title": "PCV2 — doença sistêmica",
+          "items": [
+            "Refugagem, palidez de pele, dificuldade respiratória e <b>diarreia</b>; linfonodos subcutâneos aumentados na fase inicial.",
+            "Morbidade de 4 a 30%, ocasionalmente 50 a 60%; mortalidade de 4 a 20%. Raro abaixo de 4 semanas de idade.",
+            "<b>Separa-se da ileíte</b> pela enterite granulomatosa, não adenomatosa, e pelas lesões linfoides sistêmicas."
+          ]
+        },
+        {
+          "agent": 2,
+          "title": "Coronaviroses entéricas",
+          "items": [
+            "Em rebanho sem imunidade, na terminação <b>todos os animais da unidade podem ter fezes aquosas em uma semana</b>, com anorexia e apatia marcantes e recuperação em cerca de uma semana.",
+            "Gastrenterite transmissível em terminação e matrizes: inapetência, diarreia transitória e vômito; incubação de 18 horas a 3 dias, com o grupo todo afetado em 2 a 3 dias.",
+            "Diarreia epidêmica pode participar de quadro multifatorial em terminação, <b>2 a 3 semanas após a entrada</b>, sobretudo com lotes de origens diferentes e fluxo contínuo.",
+            "<b>Lesão restrita ao delgado</b>, de parede fina e distendido por líquido amarelado; <b>sem alteração histológica no cólon</b>."
+          ]
+        },
+        {
+          "agent": 4,
+          "title": "Parasitas e dieta",
+          "items": [
+            "<i>Trichuris suis</i>: em infecção pesada dá ulceração, edema e hemorragia de ceco e cólon, <b>confundível com disenteria</b>. As larvas causam o dano antes de os adultos aparecerem, e a flutuação fecal só positiva após 6 a 7 semanas — <b>exame negativo não descarta</b>.",
+            "<i>Oesophagostomum</i> spp.: nódulos de cerca de 2 mm em ceco e cólon feitos pelas larvas; os adultos causam pouco dano. Menos prevalente em confinamento.",
+            "<b>Colite inespecífica</b>: ligada a fatores de dieta, sobretudo polissacarídeos não amiláceos e ao processamento da ração.",
+            "<b>Micotoxinas</b> — deoxinivalenol (vomitoxina): recusa de ração, vômito e diarreia.",
+            "<i>Ascaris suum</i> <b>não causa diarreia</b>: dá manchas de leite no fígado e perda de desempenho."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "title": "Fontes e créditos",
+      "html": "<p>Material de apoio para triagem diferencial. Não substitui laudo laboratorial: todas as colunas exigem confirmação por cultura, PCR ou histopatologia.</p> <p><b>Fontes</b></p> <ul class=\"srcs\"> <li>Zimmerman JJ, Karriker LA, Ramirez A, Schwartz KJ, Stevenson GW, Zhang J, Wang C (eds). <i>Diseases of Swine</i>. Wiley, 2025. Capítulos 15 (Digestive System), 27 (Circoviruses), 28 (Coronaviruses), 35 (Pestiviruses), 45 (Brachyspira spp.), 51 (Lawsonia), 55 (Salmonella), 60 (Coccidia and Other Protozoa), 61 (Internal Parasites: Helminths) e 63 (Mycotoxins in Grains and Feeds).</li> <li>Fotografias de campo (Lawsonia, Salmonella, disenteria, <i>B. pilosicoli</i>): livro-texto em português, figuras 13.3, 13.10, 16.2, 25.3 e 25.4. Imagens recortadas painel a painel a partir das fotos do original, com correção de branco pela margem do papel e ajuste leve de contraste; as cores não foram saturadas.</li> <li>Fotografias de lesão macroscópica e de animal: <i>Diseases of Swine</i>, 2025 — figuras 45.5 (disenteria), 45.7 (<i>B. pilosicoli</i>), 51.3a–d (Lawsonia), 55.2, 55.5 e 55.7 (Salmonella), 15.1 (úlcera gástrica) e 15.2 (vôlvulo). A figura 55.2 foi recortada para manter apenas a porção macroscópica.</li> </ul>"
+    }
+  ],
+  "photos": [
+    {
+      "group": "law",
+      "src": "/fotos/diferencial-enterico-suino/law-1.jpg",
+      "label": "Figura 16.2 · Forma aguda (EPH)",
+      "caption": "(A) Fezes sanguinolentas escorrendo pelo períneo de animal em terminação. (B) Leitoa de terminação morta, com palidez cutânea acentuada e períneo sujo de fezes sanguinolentas. (C) Fezes sanguinolentas no piso de baia."
+    },
+    {
+      "group": "sal",
+      "src": "/fotos/diferencial-enterico-suino/sal-1.jpg",
+      "label": "Figuras 25.3 e 25.4 · Salmonelose",
+      "caption": "Acima: salmonelose enterocolítica, com diarreia esverdeada impregnando toda a região perineal. Abaixo: salmonelose crônica, com desidratação e emagrecimento acentuados."
+    },
+    {
+      "group": "bhyo",
+      "src": "/fotos/diferencial-enterico-suino/bhyo-1.jpg",
+      "label": "Figura 13.3 · Aspecto variado das fezes",
+      "caption": "(A) Fezes cremosas e cinza-esverdeadas. (B) Fezes líquidas com estrias de fibrina e muco. (C) Fezes líquidas com material necrótico e estrias de sangue. (D) Fezes mucoides e com sangue. (E) Diarreia muco-hemorrágica."
+    },
+    {
+      "group": "bpil",
+      "src": "/fotos/diferencial-enterico-suino/bpil-1.jpg",
+      "label": "Figura 13.10 · Colite espiroquetal",
+      "caption": "(A) Fezes cremosas, com aspecto de cimento fresco. (B) Fezes com aspecto mucoide e brilhante."
+    },
+    {
+      "group": "bhamp",
+      "src": "/fotos/diferencial-enterico-suino/bhamp-1.jpg",
+      "label": "Figura 45.5 · Cólon espiral, 10 dias após inoculação",
+      "caption": "Cólon espiral de suíno 10 dias após inoculação intragástrica com Brachyspira hampsonii. Há hiperemia serosa e edema do mesocólon. Um segmento centrípeto foi aberto para mostrar espessamento da mucosa, hemorragia e conteúdo aquoso contendo muco, fibrina e sangue."
+    },
+    {
+      "group": "ulcera",
+      "src": "/fotos/diferencial-enterico-suino/ulcera-1.jpg",
+      "label": "Figura 15.1 · Pars esophagea do estômago",
+      "caption": "(A) Aspecto normal: epitélio liso, branco e brilhante, facilmente distinguível da mucosa glandular ao redor. (B) Ulceração extensa do tecido epitelial escamoso."
+    },
+    {
+      "group": "volvulo",
+      "src": "/fotos/diferencial-enterico-suino/volvulo-1.jpg",
+      "label": "Figura 15.2 (b) · Vôlvulo de delgado e grosso",
+      "caption": "Órgãos retirados, mostrando estômago e duodeno não afetados, com transição abrupta para o jejuno afetado. As alças, exceto os primeiros 20–30 cm de duodeno, ficam muito turgidas e de cor vermelho-enegrecida."
+    },
+    {
+      "group": "law_les",
+      "src": "/fotos/diferencial-enterico-suino/law_les-1.jpg",
+      "label": "Figura 51.3 · Lesões macroscópicas",
+      "caption": "(A) Intestino delgado normal. (B) Adenomatose intestinal suína crônica típica, caracterizada por espessamento e corrugação da mucosa intestinal. (C) Enterite necrótica por infecção bacteriana oportunista sobre a adenomatose crônica. (D) Enteropatia proliferativa hemorrágica, com molde fibrino-hemorrágico no lúmen intestinal."
+    },
+    {
+      "group": "sal_int",
+      "src": "/fotos/diferencial-enterico-suino/sal_int-1.jpg",
+      "label": "Figura 55.2 · Enterocolite aguda",
+      "caption": "Cólon à esquerda e íleo à direita. Macroscopicamente, exsudato fibrinonecrótico amarelo-acastanhado aderido de forma difusa à mucosa."
+    },
+    {
+      "group": "sal_sis",
+      "src": "/fotos/diferencial-enterico-suino/sal_sis-1.jpg",
+      "label": "Figuras 55.5 e 55.7 · Forma septicêmica",
+      "caption": "(A) Suíno com septicemia por S. Choleraesuis: animal letárgico, esquelético, com cianose de extremidades — orelhas, focinho e membros. (B) Pulmão com lobos caudais resilientes, não colapsantes, com edema interlobular e equimoses multifocais; lobos craniventrais vermelho-escuros e firmes, com pleurite fibrinosa focal."
+    },
+    {
+      "group": "bpil_col",
+      "src": "/fotos/diferencial-enterico-suino/bpil_col-1.jpg",
+      "label": "Figura 45.7 · Cólon espiral, 21 dias após inoculação",
+      "caption": "Cólon espiral de suíno 21 dias após inoculação intragástrica com Brachyspira pilosicoli. Conteúdo mucoide a aquoso abundante no ceco (acima) e no cólon centrípeto."
+    }
+  ],
+  "updatedAt": "2026-11-01T19:16:18.483Z"
+}

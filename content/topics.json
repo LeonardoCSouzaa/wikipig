@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "suinos",
+    "name": "Suínos",
+    "order": 1,
+    "description": "Medicina veterinária de suínos — diagnóstico diferencial por sistema."
+  },
+  {
+    "slug": "respiratorio",
+    "name": "Respiratório",
+    "parent": "suinos",
+    "order": 1,
+    "description": "Complexo de doenças respiratórias dos suínos."
+  },
+  {
+    "slug": "enterico",
+    "name": "Entérico",
+    "parent": "suinos",
+    "order": 2,
+    "description": "Diarreias e enteropatias dos suínos."
+  }
+]

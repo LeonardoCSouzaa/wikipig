@@ -596,6 +596,36 @@
       }
     },
     {
+      "label": "Diagnósticos diferenciais a descartar",
+      "block": "lab",
+      "cells": {
+        "mhyo": {
+          "html": "<b>Influenza A</b> (início agudo, febre alta), <b>PRRSV</b> e <b>PCV2</b> (pneumonia intersticial, doença sistêmica), <b>migração larval de <i>Ascaris suum</i></b> (tosse transitória, manchas brancas no fígado) e <b><i>P. multocida</i></b> como invasor secundário sobre a lesão."
+        },
+        "iav": {
+          "html": "<b>PRRSV</b>, <b>PRCV</b>, <b>doença de Glässer</b> e <b>APP</b> (febre e prostração em lote), <b>agravamento agudo da pneumonia enzoótica</b>. Febre alta com mortalidade em vários animais: <b>peste suína clássica e africana</b> (notificação obrigatória)."
+        },
+        "pcv2": {
+          "html": "<b>PRRSV</b> e <b><i>M. hyopneumoniae</i></b> (coinfecções), <b>ileíte</b>, <b>Glässer e polisserosite crônicos</b>, parasitismo e falha de manejo (acesso ao comedouro) como causas de refugagem. Com febre e lesão de pele: <b>peste suína clássica e africana</b>."
+        },
+        "pmul": {
+          "html": "Procure a <b>causa primária</b>: <b><i>M. hyopneumoniae</i></b>, <b>influenza A</b>, <b>PRRSV</b> e <b>PCV2</b>. Descarte também <b>APP crônico</b> (pleurite aderida, nódulos) e outros piogênicos, como <b><i>Trueperella pyogenes</i></b> (abscessos) e <b><i>Streptococcus suis</i></b>."
+        },
+        "app": {
+          "html": "<b>Doença de Glässer</b> e <b><i>P. multocida</i></b> (pleurite e pericardite fibrinosas), <b>erisipela</b> e <b><i>Salmonella</i> Choleraesuis</b> (septicemia, cianose), <b>peste suína clássica e africana</b> (hemorragias, morte súbita) e causas não infecciosas de morte súbita, como <b>estresse térmico</b> e <b>intoxicação</b>."
+        },
+        "glas": {
+          "html": "<b><i>Streptococcus suis</i></b> (meningite e artrite — principal diferencial), <b><i>M. hyorhinis</i></b> (polisserosite sem meningite), <b>erisipela</b> (artrite, septicemia), <b><i>Salmonella</i> Choleraesuis</b> e <b>APP</b> (pleurite fibrinosa)."
+        },
+        "bord": {
+          "html": "<b>Rinite atrófica progressiva</b> (<i>P. multocida</i> toxigênica), <b>deficiência nutricional</b> (cálcio e fósforo), <b>trauma</b> e <b>defeito genético de focinho</b> no desvio. No espirro: <b>amônia e poeira</b> no ambiente, <b>PRCV</b> e <b>influenza A</b>."
+        },
+        "hyor": {
+          "html": "<b>Doença de Glässer</b> (principal; meningite é mais comum), <b><i>Streptococcus suis</i></b>, <b>erisipela</b> (artrite), <b><i>M. hyosynoviae</i></b> (artrite em animal de terminação, sem polisserosite) e <b>lesão traumática</b> do aparelho locomotor."
+        }
+      }
+    },
+    {
       "label": "Pista forte no campo",
       "cells": {
         "mhyo": {
@@ -889,5 +919,5 @@
       "caption": "Caso de pleurite com infecção por <em>M. hyorhinis</em> confirmada."
     }
   ],
-  "updatedAt": "2026-11-01T19:15:15.081Z"
+  "updatedAt": "2026-11-01T20:05:32.719Z"
 }

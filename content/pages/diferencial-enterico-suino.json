@@ -384,6 +384,24 @@
       }
     },
     {
+      "label": "Diagnósticos diferenciais a descartar",
+      "block": "lab",
+      "cells": {
+        "law": {
+          "html": "<b><i>Brachyspira</i> spp.</b> (disenteria e colite), <b>salmonelose crônica</b> (úlcera em botão), <b>PCV2</b> (perda de peso com linfonodo aumentado) e <b>parasitas</b> (<i>Trichuris suis</i>, <i>Ascaris suum</i>). Na EPH (morte súbita, palidez, melena): <b>úlcera gástrica hemorrágica</b> e <b>vólvulo ou torção intestinal</b>."
+        },
+        "sal": {
+          "html": "<b>Peste suína clássica</b> (úlcera em botão), <b>disenteria suína</b>, <b>ileíte</b>, <b>colite espiroquetal</b>, <b><i>Trichuris suis</i></b> (colite com sangue), <b>PCV2</b> e <b>PRRSV</b>. No quadro septicêmico (cianose, morte súbita): <b>erisipela</b>, <b>APP</b> e <b>doença de Glässer</b>."
+        },
+        "bhyo": {
+          "html": "<b>Salmonelose</b>, <b>ileíte</b> (EPH tem melena, não sangue vivo), <b>colite espiroquetal</b> (<i>B. pilosicoli</i>), <b><i>Trichuris suis</i></b>, <b>úlcera gástrica</b> e outras <b><i>Brachyspira</i> fracamente hemolíticas</b> (comensais como <i>B. innocens</i> e <i>B. murdochii</i> não são doença)."
+        },
+        "bpil": {
+          "html": "<b>Disenteria suína</b> (se houver sangue, não é espiroquetose), <b>salmonelose</b>, <b>ileíte</b>, <b><i>Trichuris suis</i></b>, <b>diarreia nutricional</b> (troca de ração, excesso de fibra ou farelo) e outras <b><i>Brachyspira</i> fracamente hemolíticas</b> não patogênicas."
+        }
+      }
+    },
+    {
       "label": "Pista forte no campo",
       "cells": {
         "law": {
@@ -618,5 +636,5 @@
       "caption": "Cólon espiral de suíno 21 dias após inoculação intragástrica com Brachyspira pilosicoli. Conteúdo mucoide a aquoso abundante no ceco (acima) e no cólon centrípeto."
     }
   ],
-  "updatedAt": "2026-11-01T19:16:18.483Z"
+  "updatedAt": "2026-11-01T20:05:32.719Z"
 }

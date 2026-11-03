@@ -376,3 +376,4 @@ footer.site-footer a{color:var(--accent)}
   .ctl-row{gap:12px}
 }
 @media (prefers-reduced-motion: reduce){*{transition:none!important; animation:none!important}}
+.byline{margin:28px 0 0; text-align:right; font-family:var(--font-mono); font-size:11px; letter-spacing:.06em; color:var(--fg-dim)}

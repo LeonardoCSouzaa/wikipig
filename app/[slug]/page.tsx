@@ -110,6 +110,8 @@ export default async function PageView({ params }: PageProps<"/[slug]">) {
       {(page.sections ?? []).map((s, i) => (
         <SectionBlock key={i} section={s} />
       ))}
+
+      {page.type === "matrix" && <p className="byline">Produzido por Franciele Mielke</p>}
     </>
   );
 }

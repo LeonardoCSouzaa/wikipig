@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { IBM_Plex_Sans, IBM_Plex_Serif, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import { SiteShell } from "@/components/SiteShell";
@@ -27,6 +27,19 @@ export const metadata: Metadata = {
   },
   description:
     "Base de consulta de medicina veterinária de suínos: diagnóstico diferencial por sistema, com busca e navegação por tópicos.",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "WikiPig",
+  },
+  icons: {
+    icon: "/icon-192.png",
+    apple: "/icon-192.png",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0d6253",
 };
 
 // Evita flash de tema: aplica data-theme antes da pintura.

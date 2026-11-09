@@ -108,6 +108,20 @@ a{color:inherit}
 .btn.icon{padding:6px 9px}
 .btn svg{width:15px; height:15px}
 
+/* Offline / PWA */
+.offline-badge{
+  display:inline-flex; align-items:center; gap:5px;
+  font-family:var(--font-mono); font-size:10.5px; letter-spacing:.04em;
+  color:var(--accent); padding:4px 8px; border-radius:2px;
+  background:var(--accent-soft); white-space:nowrap;
+}
+.offline-badge svg{color:var(--accent)}
+.offline-btn{white-space:nowrap}
+@media (max-width:640px){ .offline-badge span, .offline-badge{font-size:0} .offline-badge svg{width:16px;height:16px} }
+.offline-fallback{max-width:46ch; margin:40px auto; text-align:center}
+.offline-fallback h1{font-family:var(--font-serif,var(--font-body)); margin-bottom:12px}
+.offline-fallback p{color:var(--fg-muted); line-height:1.5; margin:8px 0}
+
 .layout{flex:1 1 auto; display:grid; grid-template-columns:248px minmax(0,1fr); align-items:start}
 .sidebar{
   position:sticky; top:53px; align-self:start; max-height:calc(100vh - 53px); overflow:auto;

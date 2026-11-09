@@ -5,6 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import type { Topic } from "@/lib/types";
 import { ThemeToggle } from "./ThemeToggle";
+import { OfflineReady } from "./OfflineReady";
 
 type TreeTopic = Topic & { children: Topic[] };
 
@@ -65,6 +66,7 @@ export function AppChrome({ tree, children }: { tree: TreeTopic[]; children: Rea
         </form>
 
         <div className="header-actions">
+          <OfflineReady />
           <ThemeToggle />
           <Link href="/admin" className="btn">
             Entrar
